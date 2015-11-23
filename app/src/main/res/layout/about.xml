@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+    <TextView
+        android:layout_weight="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textColor="#ff3087ff"
+        android:textSize="30sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+        <TextView
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0"
+            android:textSize="16sp"
+             />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Atta-Care.Welcome to Generation Better-Digital First Aid"
+        android:textSize="18sp"
+      />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content"
+        android:text="Better health isn't just about eating right and working out. Better health means being safe,even with conditions that may make you unconsious."
+        android:textSize="18sp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:text="Be it fainting,panick attack,asthma,epilepsy,this app lets the people around you aware of how to help,and notifys your next of kin.This is done by a simple tap or hold on the volume button."
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:text="Feeling dizzy and you may go unconscious,just tap/hold the volume button of your phone."
+            android:textSize="18sp"
+            />
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:id="@+id/underlinethis"
+            android:layout_height="wrap_content"
+            android:text="Terms of use"
+            android:layout_marginLeft="8dp"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="16dp"
+        android:background="#ff3087ff"
+        android:text="Dual Core's Mobile Apps"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_marginTop="4dp"
+            android:text="© 2015 Mushirih Private Limited.All rights reserved. Mushirih Private Limited.ABN 47 080 890 259."
+            android:layout_height="wrap_content" />
+</LinearLayout>
+    </ScrollView>

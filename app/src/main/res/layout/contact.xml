@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:text="If you would like to speak to your or any doctor,Call us"
+        android:textSize="16sp"
+        android:id="@+id/textView" />
+
+    <Button
+
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALL US ON 0712613052"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#ff3087ff"
+        android:id="@+id/button" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="You could also write an sms/whatsapp us and the doctor will respond promptly"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS Doctor"
+        android:textColor="#ff3087ff"
+        android:textStyle="bold"
+
+         />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="Watch our Videos on YouTube"
+        />
+    <Button
+        android:id="@+id/btnY"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YouTube"
+        android:textColor="#ff3087ff"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="Help us improve the mobile App"
+        />
+    <Button
+        android:id="@+id/email"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND FEEDBACK"
+        android:textColor="#ff3087ff"
+        android:textStyle="bold"
+
+        />
+</LinearLayout>

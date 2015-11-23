@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="5dp"
+        android:src="@drawable/heartlarge" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Hackathon"
+        android:id="@+id/ttl"
+        android:textColor="#FFF"
+        android:textSize="19dp" />
+
+    <LinearLayout
+        android:layout_below="@id/ttl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Enter Name"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#ceeae3e3"
+            android:inputType="textCapWords"
+            android:padding="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Please select your condition"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+        <RadioGroup
+            android:id="@+id/radioSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:textColor="#fff"
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asthma Attacks"
+                android:textSize="25dp"
+                android:checked="false" />
+
+            <RadioButton
+
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Epilepsy" />
+            <RadioButton
+
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:id="@+id/radioFaint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fainting" />
+            <RadioButton
+
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:id="@+id/radioPanic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panic Attacks" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Enter Next of kin Number"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/nextkin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#ceeae3e3"
+            android:inputType="phone"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnJoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/bg_btn_join"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="Proceed"
+            android:visibility="invisible"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
